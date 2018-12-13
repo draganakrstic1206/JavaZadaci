@@ -35,12 +35,13 @@ public class Zadatak2 {
                 System.out.println("Izabrali ste operaciju m, vas rezultat je: "+proizvod);
                 break;
             case 'd':
-                int kolicnik=a/b;
+                double kolicnik=a/b;
                 System.out.println("Izabrali ste operaciju d, vas rezultat je: "+kolicnik);
                 break;
 
             default: System.out.println("Pogresan unos!");
 
         }
+        unos.close();
     }
 }
